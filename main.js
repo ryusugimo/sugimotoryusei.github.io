@@ -5,7 +5,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'staba.jpg') {
-      myImage.setAttribute ('src','mac.jpg');
+      myImage.setAttribute ('src','firefox.jpg');
     } else {
       myImage.setAttribute ('src','staba.jpg');
     }
